@@ -7,7 +7,7 @@
  */
 static char font[] = "Inconsolata:pixelsize=14:lcdfilter=lcddefault:hintstyle=hintnone:rgba=rgb:antialias=true:autohint=false";
 static int borderpx = 0;
-static char shell[] = "/bin/zsh";
+static char shell[] = "/bin/bash";
 static char *utmp = NULL;
 static char stty_args[] = "stty raw pass8 nl -echo -iexten -cstopb 38400";
 
